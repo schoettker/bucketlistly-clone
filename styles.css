@@ -14,7 +14,8 @@ body {
   margin-top: 20px;
 }
 .navbar a,
-#nav-icon {
+#nav-icon,
+#products {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
@@ -113,3 +114,37 @@ body {
 }
 .
 /* End Content */
+/* Footer */
+.footer {
+  text-align: center;
+  margin: auto;
+}
+.wrap {
+  text-align: center;
+}
+.appstore,
+.travelistly {
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.appstore img,
+.travelistly img {
+  height: 40px;
+}
+.appstore img:hover,
+.travelistly img:hover{
+  cursor: pointer;
+}
+.appstore {
+  margin-right: 10px;
+}
+.travelistly {
+  margin-left: 10px;
+}
+#products {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* End Footer */
